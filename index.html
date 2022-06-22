@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My homepage</title>
+</head>
+<body style="background-color:wheat">
+    <h2><b><a href="hobbies.html">Hobbies and Interests</a></b></h2>
+    <hr>
+    <img src="img/Aboutme.jpeg" alt="picture of heli" width="150">
+    <h2>I am Heli Prajapati</h2>💜
+        <p><em> A student at <a href="https://www.mak.ac.ug" target="_blank">Makerere university </a></em></P>
+    <p><em>I am a highly motivated student doing the course, Bachelor of Science in Software Engineering (BSSE) 
+        and i have a strong passion for architecture.</em></p>
+    <hr>
+    <table border="1">
+        <caption><h2>Initials</h2></caption>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Student NO</th>
+            <th>Reg No</th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td>Prajapati Heli Anilkumar</td>
+                <td>2100720194</td>
+                <td>21/X/20194/PS</td>
+
+            </tr>
+        </tbody>
+    
+    </table>
+    <hr>
+    <table border="1">
+        <caption><h2>Background</h2></caption>
+        <thead>
+        <tr>
+            <th>Education</th>
+            <th>Organization</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td>BSSE</td>
+                <td>Makerere university</td>
+                <td>-</td>
+                <td rowspan="3">PASS</td>
+            </tr>
+            <tr>
+                <td>SECONDARY</td>
+                <td>Dpsi</td>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>PRIMARY</td>
+                <td>Cambridge</td>
+                <td>85%</td>
+            </tr>
+        </tbody>
+    
+    </table>
+  
+    <form action="mailto:heli.prajapati02@gmail.com"> 
+    <h2>Contact information Form </h2>
+    <P>Required fields are followed by *</P>
+    <p> Name: * <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+        <p>Male <input type="radio" name="gender" id="male" required>
+        Female <input type="radio" name="gender" id="female" required>
+    Other <input type="radio" name="gender" id="Other" required></p>
+    </fieldset>
+    <p>Address: <textarea name="address" id="address" cols="50" rows="2"></textarea>
+    </p>
+    <p>Email: * <input type="email" name="email" id="email" required></p>
+    <p>Phone number: * <input type="tel" name="tel" id="tel" required></p>
+<p> Date: * <input type="date" name="date" id="date" required></p>
+<p> Comments: <input type="text"></p>
+<P>Rate my Page:
+    <select name="rate_type" id="rate_type">
+        <option value="">--select Option--</option>
+        <option value="Good">Good</option>
+        <option value="Bad">Bad</option>
+    </select>
+</P>
+<input type="submit" value="sumbit">
+</form>
+<hr>
+</body>
+</html>
